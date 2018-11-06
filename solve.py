@@ -53,7 +53,7 @@ def start_exploit(binary, no_pause):
         pause()
 
     exploit(p)
-    print("[*] Exiting...")
+    click.echo("[*] Exiting...")
     p.kill() if binary else p.close()
 
 
