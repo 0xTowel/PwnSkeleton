@@ -2,7 +2,7 @@
 Example pwn skeleton with CLI for Python3
 
 # About
-A small, template-like Python3 script for doing binary exploitation in Python3.
+A small, template-like script for doing binary exploitation in Python3.
 
 # Requirements
 The script uses:
