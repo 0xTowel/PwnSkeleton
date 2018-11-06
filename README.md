@@ -1,5 +1,5 @@
 # Pwn Skeleton for Python3
-A small, template-like examplescript for doing binary exploitation in Python3.
+A small, template-like example script for doing binary exploitation in Python3.
 
 # Requirements
 The script uses:
