@@ -29,5 +29,5 @@ Options:
 ```
 
 # Development and Future Work
-This is designed to be user-friendly, hackable, and most of all useful. As a result,
-if there's something you believe would improve it please submit a PR.
+This is just a simple template script designed to be user-friendly, hackable, and most of all useful.
+As a result, if there's something you believe would improve it please submit a PR.
