@@ -14,7 +14,7 @@ The scripts use:
 The script tries connects to a server if no binary is passed as an argument. It also supports
 pausing the binary and listing the PID to give time for a debugger to attach.
 
-'''
+```
 Usage: solve.py [OPTIONS] [BINARY]
 
   Connect to the server or binary and call the exploit.
@@ -26,7 +26,7 @@ Options:
   -np, --no-pause  Do not pause the program when started. Off by default,
                    ignored if connecting to a server.
   -h, --help       Show this message and exit.
-'''
+```
 
 # Development and Future Work
 This is designed to be user-friendly, hackable, and most of all useful. As a result,
