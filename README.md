@@ -5,7 +5,7 @@ Example pwn skeleton with CLI for Python3
 A small, template-like Python3 script for doing binary exploitation in Python3.
 
 # Requirements
-The scripts use:
+The script uses:
   * [Python3](https://www.python.org)
   * [Click](https://click.palletsprojects.com/en/7.x)
   * [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat)
