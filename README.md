@@ -6,6 +6,16 @@ The script uses:
   * [Python3](https://www.python.org)
   * [Click](https://click.palletsprojects.com/en/7.x)
   * [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat)
+  
+## Installing Pwntools Full 3 Compat
+As listed in the requirements, you will need [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat) for Python3 support. The following instructions will install this forked branch for the current user:
+
+```
+$ git clone -b "full-3-compat" https://github.com/Arusekk/pwntools.git
+$ cd pwntools
+$ python3 setup.py install --user
+```
+If everything worked okay running `python3 -c 'from pwn import *'` should not give any errors and exit cleanly.
 
 ## Usage
 The script tries connects to a server if no binary is passed as an argument. It also supports
