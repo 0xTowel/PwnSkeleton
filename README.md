@@ -8,7 +8,7 @@ The script uses:
   * [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat)
   
 ## Installing Pwntools Full 3 Compat
-As listed in the requirements, you will need [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat) for Python3 support. The following instructions will install this forked branch for the current user:
+As listed in the requirements, you will need [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat) for Python3 support. The following commands will install this forked branch for the current user:
 
 ```
 $ git clone -b "full-3-compat" https://github.com/Arusekk/pwntools.git
