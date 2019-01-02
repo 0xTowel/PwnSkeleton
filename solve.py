@@ -57,6 +57,6 @@ def start_exploit(binary, no_pause):
     click.echo("[*] Exiting...")
     p.kill() if binary else p.close()
 
-
-if __name__ == "__main__":
-    start_exploit()
+# Pwntools now uses pwn.toplevel
+#if __name__ == "__main__":
+start_exploit()
