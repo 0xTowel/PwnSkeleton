@@ -5,15 +5,15 @@ A small, template-like example script for doing binary exploitation in Python3.
 The script uses:
   * [Python3](https://www.python.org)
   * [Click](https://click.palletsprojects.com/en/7.x)
-  * [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat)
+  * [Pwntools python3 branch (dev3)](https://github.com/Gallopsled/pwntools/tree/dev3)
   
-## Installing Pwntools Full 3 Compat
-As listed in the requirements, you will need [Pwntools Full 3 Compat by Arusekk](https://github.com/Arusekk/pwntools/tree/full-3-compat) for Python3 support. The following commands will install this forked branch for the current user:
+## Installing Pwntools Python3 Branch (dev3)
+As listed in the requirements, you will need [Pwntools Dev3 Branch](https://github.com/Gallopsled/pwntools/tree/dev3) for Python3 support. The following commands will install this forked branch for the current user:
 
 ```
-$ git clone -b "full-3-compat" https://github.com/Arusekk/pwntools.git
+$ git clone -b "dev3" https://github.com/Gallopsled/pwntools.git
 $ cd pwntools
-$ python3 setup.py install --user
+$ pip3 install .
 ```
 If everything worked okay running `python3 -c 'from pwn import *'` should not give any errors and exit cleanly.
 
